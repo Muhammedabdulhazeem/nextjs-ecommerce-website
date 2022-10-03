@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   return (
     <div style={{backgroundColor: dark? "#232323" : "white"}} id={dark? "layout-dark" : ""} className="layout">
       <Head>
-        <title>JS Mastery Store</title>
+        <title>Azeem Sound</title>
       </Head>
       <header>
         <Navbar />
