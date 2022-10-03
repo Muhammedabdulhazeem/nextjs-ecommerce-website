@@ -8,7 +8,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 
 const Layout = ({ children }) => {
-  const [dark, setDark] = useState(false)
+  const [dark, setDark] = useState(true)
 
   return (
     <div style={{backgroundColor: dark? "#232323" : "white"}} id={dark? "layout-dark" : ""} className="layout">
